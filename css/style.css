@@ -436,8 +436,8 @@ header {
 .portfolio {
 
     display: grid;
-    /*grid-template-columns: repeat(3, 1fr);     /* Creates the number of columns in the portfolio section - currently 3 columns */
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Was 300 */
+    grid-template-columns: repeat(3, 1fr);     /* Creates the number of columns in the portfolio section - currently 3 columns */
+    /*grid-template-columns: repeat(auto-fit, minmax(450px, 1fr)); /* Was 300 */
     position: static; /* Used this to fix images from being in just one column */
 
 }
