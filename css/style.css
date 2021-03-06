@@ -327,18 +327,14 @@ header {
     background-color: var(--clr-dark);
     background-image: url(../img/ThisIsIt_lg.jpg);
     background-size: cover; /* makes sure img never repeats itself */
-    background-blend-mode: multiply;  /* Darkens the background image so text is viewable */
+    background-blend-mode: multiply; /* Darkens the background image so text is viewable */
     color: var(--clr-light);
     text-align: center;
 }
 
-.section__title--jouney {
-    color: var(--clr-dark)
+.section__title--exp {
+    color: var(--clr-accent);
     position: relative;
-    width: 3em;
-    height: 1px;
-    margin: 0.5em auto 1em;
-    background:
 }
 
 .section__title--exp::after {
@@ -348,7 +344,7 @@ header {
     height: 1px;
     margin: 0.5em auto 1em;
     background: var(--clr-accent);
-    opacity: 0.25;
+    opacity: 0.55;
 
 }
 
