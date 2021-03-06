@@ -427,7 +427,7 @@ header {
 /* MY WORK SECTION */
 
 .my-work{
-    background-color: var(--clr-dark);
+    background-color: #111;
     color: var(--clr-light);
     text-align: center;
 
