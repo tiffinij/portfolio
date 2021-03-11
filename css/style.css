@@ -13,9 +13,9 @@
 /* ff = font-family */
         --ff-primary:  'Roboto', sans-serif; /* 'DotGothic16', sans-serif; /*'Source Sans Pro', sans-serif;*/
         --ff-secondary: 'Source Code Pro', monospace;
-
+        --ff-logo: 'Source Sans Pro', sans-serif;
 /* fw = font-weight */
-        --fw-reg: 300;
+        --fw-reg : 300;
         --fw-bold: 900;
 
 /* clr = color */
@@ -46,6 +46,10 @@
 }
 
 /* General Styles*/
+#tiny-logo {
+  font-family: var(--ff-logo);
+}
+
 
 html {
     scroll-behavior: smooth;
