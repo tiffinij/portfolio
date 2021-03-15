@@ -529,3 +529,19 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+
+#vending-gif {
+  width: 100%;
+  align-content: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+
+}
+
+.devicon-java-plain {
+  font-size: 12em;
+  background: white;
+  color: var(--clr-accent2);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, .15);
+}
